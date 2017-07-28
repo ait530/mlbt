@@ -1,7 +1,7 @@
 <div class="container">
 	
+	
 	<div class="row">
-
 		<div class="col-sm-7">
 			<br>
 			<img src="./images/logo.jpg" alt="Mini Library Book App">
@@ -17,33 +17,30 @@
 		<div class="col-sm-2">
 		</div>
 	</div>
-
-	<div class="">
+	<div class=""><h2>Checkout List</h2>
+		<br>
 		<div class="col-sm-8">
 			<div class="container scroll">
 				<table class="table table-hover table-nonfluid">
 					<thead>
 						<tr>
-							<th>Title</th>
-							<th>Author</th>
-							<th>Edition</th>
-							<th>ISBN</th>
-							<th>Publisher</th>
-							<th>Available</th>
-							<th>Edit</th>
+							<th>Name</th>
+							<th>Email</th>
+							<th>User NetID</th>
+							<th>book ID</th>
+							<th>Checkout</th>
+							<th>Due Date</th>
 						</tr>
 					</thead>
 					<tbody class="">
-						{{#each books}}
-						{{!-- 			 		{{#if this.available}} --}}
-						
-						<tr tabindex="1" >
-							<td>{{this.title}}</td>
-							<td>{{this.author}}</td>
-							<td>{{this.edition}}</td>
-							<td>{{this.ISBN}}</td>
-							<td>{{this.publisher}}</td>
-							<td>{{this.available}}</td>
+						{{#each checkout}}
+						<tr tabindex="1">
+							<td>{{this.name}}</td>
+							<td>{{this.email}}</td>
+							<td>{{this.netID}}</td>
+							<td>{{this.book_id}}</td>
+							<td>{{this.checkout_date}}</td>
+							<td>{{this.due_date}}</td>
 							<td>
 								
 								<form action="/{{this.id}}?_method=DELETE" method="POST" class="pull-left">
@@ -58,7 +55,6 @@
 								</form>
 							</td>
 						</tr>
-						{{!-- {{/if}} --}}
 						{{/each}}
 					</tbody>
 				</table>
@@ -69,9 +65,4 @@
 	<div class="col-sm-2">
 	</div>
 </div>
-<div class="container">
-	<div class="row">
-	</div>
-</div>
-<BR><BR>
-
+<BR>
