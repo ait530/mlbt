@@ -1,17 +1,17 @@
 INSERT INTO books (title, author, edition, ISBN, publisher)
-VALUES ('Electrical Properties of Materials', 'Solymar, L. and Walsh, D.', '6th', '0198562721', 'Oxford University Press');
+VALUES ('Electrical Properties of Materials', 'Solymar, L. and Walsh, D.', '6th', '0198562721', 'Oxford University Press', 'Yes');
 INSERT INTO books (title, author, edition, ISBN, publisher)
-VALUES ('Intoduction to Materials Science for Engineers', 'Shackelford, James', '8th', '9780133826654','Pearson');
+VALUES ('Intoduction to Materials Science for Engineers', 'Shackelford, James', '8th', '9780133826654','Pearson', 'No');
 INSERT INTO books (title, author, edition, ISBN, publisher)
-VALUES ('Elements of X-ray Diffraction', 'Cullity, B.D. and Stock, S.R.', '3rd', '0201610914', 'Prentice Hall');
+VALUES ('Elements of X-ray Diffraction', 'Cullity, B.D. and Stock, S.R.', '3rd', '0201610914', 'Prentice Hall', 'Yes');
 INSERT INTO books (title, author, edition, ISBN, publisher)
-VALUES ('Nanotechnology', 'Timp, Gregory', '', '0387984431', 'AIP Press Springer-Verlag');
+VALUES ('Nanotechnology', 'Timp, Gregory', '', '0387984431', 'AIP Press Springer-Verlag', 'Yes');
 INSERT INTO books (title, author, edition, ISBN, publisher)
-VALUES ('Composite Materials Science and Engineering', 'Chawla, Krishnan K.', '2nd', '0387984097', 'Springer-Verlag');
+VALUES ('Composite Materials Science and Engineering', 'Chawla, Krishnan K.', '2nd', '0387984097', 'Springer-Verlag', 'Yes');
 INSERT INTO books (title, author, edition, ISBN, publisher)
-VALUES ('Properties of Materials', 'White, Mary Anne', '', '0195113314', 'Oxford University Press');
+VALUES ('Properties of Materials', 'White, Mary Anne', '', '0195113314', 'Oxford University Press', 'No');
 INSERT INTO books (title, author, edition, ISBN, publisher)
-VALUES ('Electrical Properties of Materials', 'Solymar, L. and Walsh, D.', '9th', '0198562721', 'Oxford University Press');
+VALUES ('Electrical Properties of Materials', 'Solymar, L. and Walsh, D.', '9th', '0198562721', 'Oxford University Press', 'Yes');
 
 -- INSERT INTO checkout (name, email, netID, book_id)
 -- VALUES ('Jeannine Hall', 'jeannine-hall@northwestern.edu', 'jlh974', 1);
