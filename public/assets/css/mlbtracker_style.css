@@ -46,10 +46,13 @@
   font-family: 'Oxygen', sans-serif;
 }
 
-.requiredRow {
 
-  margin-left: 0px;
+.containerInput{
+  display:inline-block;
+  width: 100%;
+  clear: both;
 }
+
 
 
 html,body {
