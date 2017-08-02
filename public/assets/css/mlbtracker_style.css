@@ -46,6 +46,10 @@
   font-family: 'Oxygen', sans-serif;
 }
 
+.form-control {
+
+  clear: both;
+}
 
 .containerInput{
   display:inline-block;
@@ -53,6 +57,10 @@
   clear: both;
 }
 
+.buttons{
+  display:inline;
+
+}
 
 
 html,body {

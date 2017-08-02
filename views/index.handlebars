@@ -80,21 +80,25 @@
               <label>Name:</label>
               <input type="text" name="Name:" size="25" placeholder="full name">
               <br /><br />
+              
               {{!-- email input box --}}
-              <label for="email" id="email-ariaLabel">Email:   </label>
-              <textarea id="email" name="email" type="email" class="required" size="25" title="This is a required field" placeholder="email">
-              </textarea>
+              <label>Email:</label>
+              <input class="form-control" name="email" type="email" placeholder="Email">
+  
               <br /><br />
               {{!-- request box --}}
-              <label>Request:</label>  <input type="text" name="Book Request" size="25" placeholder="book request/comment">
+              <label>Request:</label> 
+              <textarea type="textarea" name="email"  class="required" title="This is a required field" size="25" placeholder="Enter request details here">
+              </textarea>
               <br /><br />
+              
               {{!-- submit button --}}
-              <div class="input-append">
+              <div class="buttons">
                 <button class="btn btn-success">Submit</button>
+                
+                {{!-- reset button --}}
+                <button class="btn btn-danger" type="reset" value="Reset">Reset</button>
               </div>
-              <br>
-              {{!-- reset button --}}
-              <button class="btn btn-danger" type="reset" value="Reset">Reset</button>
             </form>
           </div>
         </div>
