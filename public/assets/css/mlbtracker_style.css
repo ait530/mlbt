@@ -1,20 +1,12 @@
-@media screen and (min-width:400px) {
-
 .title {
-
   font-family: 'Oxygen', sans-serif;
   color:#4B0082;
 }
-
-
 .table-hover{
-
   text-align: left;
 }
 
-
-.booksTable {
-  
+.booksTable { 
   height: 550px;
   width: 800px;
   overflow: auto;
@@ -22,22 +14,15 @@
   font-family: 'Oxygen', sans-serif; 
   overflow: scroll;
 }
-
-
 .table-nonfluid {
-
    width: 93% !important
 }
-
 .scroll {
-
   clear: both;
 	height: 350px;
 	overflow: auto;	
 }
-
 .emailBooks {
-
   border:1px;
   border-color:#CCC;
   height:500px;
@@ -45,62 +30,47 @@
   width:300px;
   font-family: 'Oxygen', sans-serif;
 }
-
 .form-control {
-
   clear: both;
 }
-
 .containerInput{
   display:inline-block;
   width: 100%;
   clear: both;
 }
-
 .buttons{
   display:inline;
-
 }
-
-
 html,body {
     height:100%;
     width: 100%;
 }
-
 body {
     display: table;
 }
-
 .container {
     height: auto;
     text-align: center;
 }
-
 .footer {
     display: table-row;
-    height: 1px;
-    
+    height: 1px;   
 }
-
 .right {
-
 	text-align: right;
 }
-
 .admin-center {
-
 	text-align: center;
 }
-
-img {
-  
+img { 
   /* width: 80%; */
   height: auto;
   width: auto;
   
 }
 .btn-size {
-
   width: 26px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  padding:10px;
 }
